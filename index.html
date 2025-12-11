@@ -590,6 +590,18 @@
                                     </div>
                                 </div>
                             </div>
+                            <div
+                                class="cta-btn btns justify-content-center ul_li">
+                                <a class="thm-btn thm-btn--white"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#virtualTourModal"
+                                    data-bs-dismiss="modal">start you
+                                    application
+                                    <span><img
+                                            src="assets/img/icon/learning.png"
+                                            alt></span>
+                                </a>
+                            </div>
                         </div>
                         <div class="xb-feature-shape">
                             <span class="shape shape--one"><img
@@ -733,7 +745,7 @@
                             <h1 class="title">Our Top Universities
                                 Available:</h1>
                         </div>
-                        <div class="dep-inner pb-200 pos-rel">
+                        <div class="dep-inner pb-50 pos-rel">
                             <div class="row g-0">
                                 <div
                                     class="col-lg-3 col-md-6 mt-30 mb-30 dp-col">
@@ -849,6 +861,21 @@
                                         </div>
 
                                     </div>
+                                </div>
+                                <div class="xb-btn text-center pt-60">
+                                    <a class="thm-btn" data-bs-toggle="modal"
+                                        data-bs-target="#virtualTourModal"
+                                        data-bs-dismiss="modal">Start Your
+                                        Application
+                                        <span class="icon"><svg width="21"
+                                                height="21"
+                                                viewBox="0 0 21 21" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M10.4795 21C9.10959 21 7.81507 20.7539 6.59589 20.2617C5.37671 19.7695 4.30137 19.0962 3.36986 18.2417C2.43836 17.3872 1.67808 16.3857 1.08904 15.2373C0.486301 14.0752 0.123288 12.8311 0 11.5049V11.4639H8.56849V14.3145C8.56849 14.5742 8.66096 14.7998 8.84589 14.9912C9.03082 15.1826 9.25342 15.2783 9.5137 15.2783C9.65068 15.2783 9.7774 15.251 9.89384 15.1963C10.0103 15.1416 10.1096 15.0732 10.1918 14.9912L14.0137 11.1768C14.0959 11.0947 14.1644 10.9956 14.2192 10.8794C14.274 10.7632 14.3014 10.6367 14.3014 10.5C14.3014 10.3633 14.274 10.2368 14.2192 10.1206C14.1644 10.0044 14.0959 9.90527 14.0137 9.82324L10.1918 6.00879C10.1096 5.92676 10.0103 5.8584 9.89384 5.80371C9.7774 5.74902 9.65068 5.72168 9.5137 5.72168C9.25342 5.72168 9.0274 5.81738 8.83562 6.00879C8.64384 6.2002 8.54794 6.42578 8.54794 6.68555V9.53613H0C0.123288 8.19629 0.486301 6.94531 1.08904 5.7832C1.67808 4.62109 2.44178 3.61279 3.38014 2.7583C4.31849 1.90381 5.39041 1.23047 6.59589 0.738281C7.81507 0.246094 9.10959 0 10.4795 0C11.9315 0 13.2945 0.273439 14.5685 0.820312C15.8425 1.38086 16.9555 2.13623 17.9075 3.08643C18.8596 4.03662 19.6096 5.14746 20.1575 6.41895C20.7192 7.69043 21 9.05078 21 10.5C21 11.9492 20.7192 13.3096 20.1575 14.5811C19.6096 15.8662 18.8596 16.9839 17.9075 17.9341C16.9555 18.8843 15.8425 19.6328 14.5685 20.1797C13.2945 20.7266 11.9315 21 10.4795 21Z"
+                                                    fill="#170006" />
+                                            </svg></span>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -1035,20 +1062,18 @@
                                             Affordable plans <span>starting
                                                 ₹7,000–₹8,000 per month</span>
                                         </p>
-
                                         <p class="structure-fee-sub">
-                                            (Pay After Placement option
-                                            available for MBA – Shoolini)
+                                            (Pay After Placement Option
+                                            Available for All Courses)
                                         </p>
                                     </div>
-
                                 </div>
                                 <div
                                     class="cta-btn btns justify-content-center ul_li">
                                     <a class="thm-btn thm-btn--white"
                                         data-bs-toggle="modal"
                                         data-bs-target="#virtualTourModal"
-                                        data-bs-dismiss="modal">start you
+                                        data-bs-dismiss="modal">start your
                                         application
                                         <span><img
                                                 src="assets/img/icon/learning.png"
@@ -1070,22 +1095,98 @@
                                 <h3 class="second-title">Send us a Message</h3>
                                 <form class="second-form">
                                     <div class="second-field">
-                                        <label for="name">Full Name</label>
                                         <input type="text" id="name"
                                             placeholder="Enter your name">
                                     </div>
                                     <div class="second-field">
-                                        <label for="email">Email Address</label>
                                         <input type="email" id="email"
                                             placeholder="Enter your email">
                                     </div>
                                     <div class="second-field">
-                                        <label for="phone">Mobile Number</label>
                                         <input type="text" id="phone"
                                             placeholder="Enter phone number">
                                     </div>
+
+                                    <div class="popup-field">
+                                        <div
+                                            class="popup-select-wrapper">
+                                            <select id="course"
+                                                class="popup-select"
+                                                required>
+                                                <option value
+                                                    disabled
+                                                    selected>Choose
+                                                    Course</option>
+                                                <option
+                                                    value="mba">MBA</option>
+                                                <option
+                                                    value="bba">BBA
+                                                </option>
+                                                <option
+                                                    value="Bcom">B.Com
+                                                </option>
+                                                <option
+                                                    value="Mcom">M.com</option>
+                                                <option
+                                                    value="ba">BA</option>
+                                                <option
+                                                    value="ma">MA</option>
+                                                <option
+                                                    value="mca">MCA</option>
+                                                <option
+                                                    value="others">Others</option>
+
+                                            </select>
+
+                                            <!-- Custom Arrow Icon -->
+                                            <span
+                                                class="popup-select-arrow">▼</span>
+                                        </div>
+                                    </div>
+                                    <div class="popup-field">
+                                        <div
+                                            class="popup-select-wrapper">
+                                            <select id="university"
+                                                class="popup-select"
+                                                required>
+                                                <option value
+                                                    disabled
+                                                    selected>Choose
+                                                    University</option>
+                                                <option
+                                                    value="mba">Amity
+                                                    University</option>
+                                                <option
+                                                    value="digital-marketing">Lovely
+                                                    Professional
+                                                    University
+                                                </option>
+                                                <option
+                                                    value="stock-market">Shoolini
+                                                    University
+                                                </option>
+                                                <option
+                                                    value="bba">Vivekanand
+                                                    Global
+                                                    University</option>
+                                                <option
+                                                    value="bba">NMIMS
+                                                    University</option>
+                                                <option
+                                                    value="bba">D.Y
+                                                    patil
+                                                    University</option>
+                                                <option
+                                                    value="bba">Manipal
+                                                    University</option>
+                                            </select>
+                                            <!-- Custom Arrow Icon -->
+                                            <span
+                                                class="popup-select-arrow">▼</span>
+                                        </div>
+                                    </div>
                                     <div class="second-field">
-                                        <label for="city">City</label>
+
                                         <input type="text" id="city"
                                             placeholder="Enter city">
                                     </div>
@@ -1110,7 +1211,6 @@
                     </div>
                 </section>
                 <!--  Contact Section end -->
-
             </main>
             <!-- main area end  -->
 
@@ -1170,44 +1270,114 @@
                                             class="popup-form-title text-center">Get
                                             in Touch With Us</h5>
                                         <form class="popup-form">
-
                                             <div class="popup-field">
-                                                <!-- <label for="fname">Full
-                                                    Name</label> -->
                                                 <input type="text" id="fname"
                                                     placeholder="Enter your name"
                                                     required>
                                             </div>
-
+                                            <div class="popup-two-col">
+                                                <div class="popup-field">
+                                                    <input type="tel" id="phone"
+                                                        placeholder="Enter phone number"
+                                                        required>
+                                                </div>
+                                                <div class="popup-field">
+                                                    <input type="email"
+                                                        id="email"
+                                                        placeholder="Enter Email"
+                                                        required>
+                                                </div>
+                                            </div>
+                                            <!-- New Row With Two Selects -->
                                             <div class="popup-field">
-                                                <!-- <label for="city">City</label> -->
+                                                <div
+                                                    class="popup-select-wrapper">
+                                                    <select id="course"
+                                                        class="popup-select"
+                                                        required>
+                                                        <option value
+                                                            disabled
+                                                            selected>Choose
+                                                            Course</option>
+                                                        <option
+                                                            value="mba">MBA</option>
+                                                        <option
+                                                            value="bba">BBA
+                                                        </option>
+                                                        <option
+                                                            value="Bcom">B.Com
+                                                        </option>
+                                                        <option
+                                                            value="Mcom">M.com</option>
+                                                        <option
+                                                            value="ba">BA</option>
+                                                        <option
+                                                            value="ma">MA</option>
+                                                        <option
+                                                            value="mca">MCA</option>
+                                                        <option
+                                                            value="others">Others</option>
+
+                                                    </select>
+
+                                                    <!-- Custom Arrow Icon -->
+                                                    <span
+                                                        class="popup-select-arrow">▼</span>
+                                                </div>
+                                            </div>
+                                            <div class="popup-field">
+                                                <div
+                                                    class="popup-select-wrapper">
+                                                    <select id="university"
+                                                        class="popup-select"
+                                                        required>
+                                                        <option value
+                                                            disabled
+                                                            selected>Choose
+                                                            University</option>
+                                                        <option
+                                                            value="mba">Amity
+                                                            University</option>
+                                                        <option
+                                                            value="digital-marketing">Lovely
+                                                            Professional
+                                                            University
+                                                        </option>
+                                                        <option
+                                                            value="stock-market">Shoolini
+                                                            University
+                                                        </option>
+                                                        <option
+                                                            value="bba">Vivekanand
+                                                            Global
+                                                            University</option>
+                                                        <option
+                                                            value="bba">NMIMS
+                                                            University</option>
+                                                        <option
+                                                            value="bba">D.Y
+                                                            patil
+                                                            University</option>
+                                                        <option
+                                                            value="bba">Manipal
+                                                            University</option>
+                                                    </select>
+                                                    <!-- Custom Arrow Icon -->
+                                                    <span
+                                                        class="popup-select-arrow">▼</span>
+                                                </div>
+                                            </div>
+                                            <div class="popup-field">
                                                 <input type="text" id="city"
                                                     placeholder="Enter your city"
                                                     required>
                                             </div>
-
-                                            <div class="popup-field">
-                                                <!-- <label for="phone">Phone
-                                                    Number</label> -->
-                                                <input type="tel" id="phone"
-                                                    placeholder="Enter phone number"
-                                                    required>
-                                            </div>
-                                            <div class="popup-field">
-                                                <!-- <label for="email">Phone
-                                                    Number</label> -->
-                                                <input type="email" id="email"
-                                                    placeholder="Enter Email"
-                                                    required>
-                                            </div>
-
                                             <button type="submit"
                                                 class="popup-btn full-width">
                                                 Apply Now
                                                 <span
                                                     class="arrow-icon">→</span>
                                             </button>
-
                                         </form>
                                     </div>
                                 </div>

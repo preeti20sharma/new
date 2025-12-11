@@ -12794,6 +12794,84 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
   height: 400px;
 }
 
+/* Side by side select row */
+.popup-two-col {
+  display: flex;
+  gap: 12px;
+}
+
+/* Fields styling */
+.popup-field select,
+.popup-field input {
+  width: 100%;
+  padding: 8px 12px;
+  height: 41px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+/* On focus */
+.popup-field select:focus,
+.popup-field input:focus {
+  border-color: #60060f;
+  outline: none;
+  box-shadow: 0 0 4px rgba(96, 6, 15, 0.3);
+}
+
+/* Responsive for mobile */
+@media (max-width: 576px) {
+  .popup-two-col {
+    flex-direction: column;
+  }
+}
+
+/* Wrapper for custom arrow */
+.popup-select-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+/* Hide default select arrow */
+.popup-select {
+  width: 100%;
+  padding: 8px 12px;
+  height: 36px;
+  border-radius: 6px;
+  font-size: 14px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: #F3F4F5;
+  color: #000;
+}
+
+/* Custom Arrow */
+.popup-select-arrow {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 12px;
+  pointer-events: none;
+  color: #444;
+}
+
+/* Gray Placeholder */
+.popup-select:invalid {
+  color: rgb(78, 76, 76);
+}
+
+/* First option gray */
+.popup-select option:first-child {
+  color: gray;
+}
+
+/* Focus effect */
+.popup-select:focus {
+  border-color: #60060f;
+  box-shadow: 0 0 4px rgba(96, 6, 15, 0.3);
+  outline: none;
+}
 
 
 /*# sourceMappingURL=main.css.map */
